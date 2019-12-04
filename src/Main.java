@@ -1,14 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hallo Elco Mussert");
-        System.out.println("Hello World!");
-        System.out.println("Hello Joris!");
-        System.out.println("test");
 
-        for (int i = 0 ; i < 5 ; i++) {
-            System.out.println("Hello world!");
-        }
+        System.out.println("Hallo Arno");
+        System.out.println("Hello World!");
     }
 
     public static void sayHello() {
