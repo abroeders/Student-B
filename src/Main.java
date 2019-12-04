@@ -1,9 +1,23 @@
+import database.DatabaseConnection;
+import database.StudentDAO;
+
 import java.sql.*;
 
 /**
  * Dit is een voorbeeld Java toepassing waarin je verbinding maakt met een SQLServer database.
  */
 public class Main {
+
+    public static void database() {
+        DatabaseConnection conn = new DatabaseConnection();
+
+
+        StudentDAO s = new StudentDAO(conn);
+        TeacherDAO t = new StudentDAO(conn);
+    }
+
+
+
 
     public static void main(String[] args) {
 
