@@ -5,6 +5,10 @@ public class Main {
         System.out.println("Hello World!");
         System.out.println("Hello Joris!");
         System.out.println("test");
+
+        for (int i = 0 ; i < 5 ; i++) {
+            System.out.println("Hello world!");
+        }
     }
 
     public static void sayHello() {
